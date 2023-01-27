@@ -1,0 +1,51 @@
+.card-body {
+  display: flex;
+}
+
+.postImg {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+}
+
+.card-body-img {
+  max-width: 100%;
+  max-height: 50%;
+  object-fit: contain;
+}
+
+.like-icon {
+  width: 20%;
+}
+
+.likes-count {
+  display: flex;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #d0d0d0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #b8b8b8;
+}
+
+.active-status {
+  display: flex;
+  align-items: center;
+  font-size: small;
+}
+
+.profile-name {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+.count {
+  display: flex;
+  align-items: center;
+  font-size: small;
+}

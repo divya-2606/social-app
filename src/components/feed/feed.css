@@ -1,0 +1,20 @@
+.feed {
+  flex: 6;
+  overflow-y: scroll;
+}
+
+.feedWrapper {
+  height: calc(100vh - (3em));
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #d0d0d0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #b8b8b8;
+}
